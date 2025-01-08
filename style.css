@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+
+body{
+    background-color: #373737;
+    color: white;
+}
+
+
+header{
+    background-image: url(imgs/download.jpg);
+    /* height: 100%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+
+#h2{
+    font-family: "Modak", serif;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    font-family: "Chango", serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#des{
+    font-family: "Major Mono Display", serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #faaefa;
+}
+
+#work{
+    border: 1px solid transparent;
+    font-size: 15px;
+    background-color: #344CB7;
+    color: white;
+    font-family: cursive;
+    border-radius: 25px;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-shadow: 1px 1px 10px black;
+}
+
+#work:hover{
+    background-color: white;
+    color: #344CB7;
+    transition: all 0.45s ease;
+}
+
+.container-3{
+    padding: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    align-self: center;
+    justify-content: center;
+}
+
+.imgs{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid lime;
+}
+
+.text-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.who{
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(201, 255, 255);
+    font-family: sans-serif;
+}
+
+.abt{
+    font-size: 25px;
+    font-family: "Chango", serif;
+    color: #A888B5;
+    text-shadow: 1px 1px 5px white;   
+}
+
+.dum{
+    font-family: cursive;
+    font-size: 10px;
+}
+
+.cv{
+    background-color: #441752;
+    border-radius: 25px;
+    font-size: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.cv:hover{
+    color: #faaefa;
+    background-color: t;
+}
