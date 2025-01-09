@@ -123,3 +123,278 @@ header{
     color: #faaefa;
     background-color: t;
 }
+
+.container4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container5{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mywork{
+    font-weight: 100;
+    font-family: cursive;
+}
+
+.Service{
+    font-size: 35px;
+    color: #344CB7;
+    text-shadow: 1px 1px 10px black;
+}
+
+#mug{
+    font-size: 30px;
+}
+
+.item1{
+    border-radius: 10px;
+    border: 1px white solid;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+}
+
+.item2{
+    border-radius: 10px;
+    border: 1px white solid;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+}
+
+#laptop{
+    font-size: 30px;
+}
+
+.free{
+    /* color: lime; */
+    font-size: 20px;
+}
+
+.free-p{
+    font-size: 17px;
+}
+
+.standard{
+    /* color: cyan; */
+    font-size: 20px;
+}
+
+.standard-p{
+    font-size: 17px;
+}
+
+.item3{
+    border-radius: 10px;
+    border: 1px white solid;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+}
+
+.pro{
+    /* color: red; */
+    font-size: 20px;
+}
+
+.item4{
+
+}
+
+.item1:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.item2:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.item3:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.code1{
+    background-image: url(imgs/coding.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.code2{
+    background-image: url(imgs/code2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.code3{
+    background-image: url(imgs/code3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.container7{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container8{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container6{
+    padding: 50px;
+}
+
+.what{
+    font-weight: 100;
+}
+.idid{
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.paras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    color: cyan;
+    font-size: 20px;
+    /* background-color: white; */
+    text-shadow: 1px 1px 10px white;
+}
+
+.code1:hover{
+    background-color: white;
+    background-image: url(imgs/code3.jpg);
+    /* opacity: 70%; */
+    transition: all 0.6s ease-in-out;
+}
+
+.code2:hover{
+    background-color: white;
+    background-image: url(imgs/coding.jpg);
+    /* opacity: 70%; */
+    transition: all 0.6s ease-in-out;
+}
+
+.code3:hover{
+    background-color: white;
+    background-image: url(imgs/code2.png);
+    /* background: transparent; */
+    color: white;
+    transition: all 0.6s ease-in-out;
+}
+
+.container10{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.container11{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.free-sub{
+    border: 1px solid white;
+    padding: 100px;
+    text-align: center;
+    height: 500px;
+}
+
+#moto{
+    font-size: 35px;
+}
+
+.freehead{
+    color: #faaefa;
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.ps{
+    font-size: 20px;
+}
+
+#x{
+    color: red;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.free-sub:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s ease-out;
+}
+
+.Pricing{
+    color: aqua;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.charge{
+    font-size: 17px;
+}
+
+.Subscribe{
+    color: white;
+    border: 1px solid transparent;
+    background-color: #344CB7;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.Subscribe:hover{
+    background-color: white;
+    color: #344CB7;
+    transition: all 0.3s ease-in-out;
+}
