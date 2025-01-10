@@ -5,9 +5,9 @@ function submit(){
     let message = document.getElementById("message").Value;
 
     let parans = {
-        full_name: fullName,
+        full_Name: fullName,
         subject: subject,
-        email: userEmail,
+        email: email,
         message: message,
     }
 
