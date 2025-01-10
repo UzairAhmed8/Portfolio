@@ -214,10 +214,6 @@ header{
     font-size: 20px;
 }
 
-.item4{
-
-}
-
 .item1:hover{
     background-color: white;
     color: black;
@@ -396,5 +392,116 @@ header{
 .Subscribe:hover{
     background-color: white;
     color: #344CB7;
+    transition: all 0.3s ease-in-out;
+}
+
+.container-main-4{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(15deg ,#faaefa , rgb(255, 106, 131));
+    padding: 10px 5px;
+}
+
+.container13{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hire{
+    background-color: white;
+    color: #441752;
+    border: 1px solid transparent;
+    align-self: center;
+    padding: 5px 20px;
+    border-radius: 14px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.hire:hover{
+    background-color: #441752;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.wme{
+    font-size: 25px;
+    font-family: "Major Mono Display", serif;
+}
+
+.hme{
+    font-size: 17px;
+}
+
+.container-main-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts{
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #171717;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 17px;
+}
+#subject{
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #171717;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 17px;
+    font-family: cursive;
+}
+.writeSomething{
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #171717;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 17px;
+    max-height: 100px;
+    max-width: 250px;
+    font-family: cursive;   
+}
+
+.container16{
+    text-align: center;
+}
+.contactme{
+    font-size: 35px;
+    color: #faaefa;
+    font-family: "Major Mono Display", serif;   
+}
+
+.Communicate{
+    font-size: 17px;
+}
+
+.btn-low{
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: #344CB7;
+    color: white;
+    font-size: 20px;
+}
+.container17{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-low:hover{
+    background-color: white;
+    color: #344CB7;
+    font-weight: bolder;
     transition: all 0.3s ease-in-out;
 }

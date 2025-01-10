@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+     <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "89ZReB_m37DLtuMXu",
+            });
+        })();
+    </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     
@@ -212,5 +222,54 @@
             </div>
         </div>
     </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section>
+        <div class="container-main-4">
+            <div class="container12">
+                <h1 class="wme">Want to work with me?</h1>
+                <p class="hme">Always feel free to contact & hire me</p>
+            </div>
+            <div class="container13">
+                <button class="hire">Hire me</button>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section>
+        <div class="container-main-5">
+            <div class="container16">
+                <p class="Communicate" >how can you Communicate with me?</p>
+                <h1 class="contactme">Contacte me</h1>
+            </div>
+            <div class="container14">
+                <input type="text" id="userName" class="contacts" placeholder="Your Name" required>
+                <input type="text" id="email" class="contacts" placeholder="Enter Email" required>
+            </div>
+            <br>
+            <br>
+            <div class="container15">
+                <input type="text" id="subject" placeholder="Subject" required>
+                <br>
+                <br>
+                <textarea name="" id="message" class="writeSomething" placeholder="Write Something" required></textarea>
+                <br>
+                <br>
+                <div class="container17">
+                    <button onclick="submit()" class="btn-low">Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
 </body>
 </html>
