@@ -1,8 +1,8 @@
 function submit(){
-    document.getElementById("userName").Value;
-    document.getElementById("email").Value;
-    document.getElementById("subject").Value;
-    document.getElementById("message").Value;
+    let fullName =document.getElementById("userName").Value;
+    let email = document.getElementById("email").Value;
+    let subject = document.getElementById("subject").Value;
+    let message = document.getElementById("message").Value;
 
     let parans = {
         full_name: fullName,
